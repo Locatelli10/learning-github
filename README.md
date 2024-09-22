@@ -4,7 +4,7 @@ Repository to learn, perform tests, solve exercises and take notes about 'Git' a
 ## O que é Git e Github?
 Git é um software de controle de versão, enquanto o Github é uma plataforma que dispoe de diversos serviços, entre eles, colaboração e gerenciamento de projetos, armazenamento de codigos, entre outros.
 
-## Git
+# Git
 ### Comandos úteis
 1. #### Configuração do Git
         git config --global user.name "Seu Nome"
@@ -34,7 +34,7 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
 
 # Github
 
-## Segurança
+### Segurança
 - ### Métodos de autenticação
     1. #### Usuário e senha:
         Método mais conhecido familiaridade e facilidade, porém, recomenda-se utilizar opções mais seguras.
@@ -52,10 +52,3 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
         O SAML SSO permite login centralizado via um provedor de identidade (como Microsoft Entra ID ou Okta). Após autenticação, o usuário ganha acesso ao GitHub sem usar senhas, facilitando o controle e segurança organizacional.
     3. #### LDAP:
         LDAP é um protocolo que organiza e gerencia o acesso a informações em diretórios corporativos. No GitHub Enterprise, ele facilita o controle centralizado de repositórios usando contas já existentes da empresa.
-
-
-        
-- ### Github
-    | texto | texto |
-    --------|--------
-    | texto | texto |
