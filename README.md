@@ -112,3 +112,10 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
             O SAML SSO permite login centralizado via um provedor de identidade (como Microsoft Entra ID ou Okta). Após autenticação, o usuário ganha acesso ao GitHub sem usar senhas, facilitando o controle e segurança organizacional.
         3. #### LDAP:
             LDAP é um protocolo que organiza e gerencia o acesso a informações em diretórios corporativos. No GitHub Enterprise, ele facilita o controle centralizado de repositórios usando contas já existentes da empresa.
+
+-----------------------------------
+<details align="left">
+  <summary>Credits</summary> 
+  - Créditos a <a href="https://www.linkedin.com/in/allineantunnes/">Aline Antunes</a> pelo material de aprendizado -  <a href="https://aline-antunes.gitbook.io/formacao-fundamentos-github">Gitbook</a> 
+  <br>
+</details>
