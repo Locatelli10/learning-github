@@ -33,7 +33,6 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
     | git remote add {nome-remoto} {URL} | Adiciona um repositório remoto com um nome específico. |
 
 # Github
-
 ### Segurança
 - ### Métodos de autenticação
     1. #### Usuário e senha:
@@ -45,7 +44,7 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
     4. #### Chaves de Implementação:
         Chaves de implementação são chaves digitais que dão acesso a um repositório específico no GitHub. Por padrão, permitem apenas leitura, mas podem ser configuradas para permitir escrita. Funcionam como "chaves especiais" que controlam o que pode ser feito no repositório.
 
-- ### Outras opções
+- ### Outras opções de segurança
     1. #### Autenticação de dois Fatores (2FA):
         2FA adiciona uma camada extra de segurança além da senha, exigindo um código gerado por um aplicativo ou enviado ao celular. Isso dificulta o acesso não autorizado, protegendo melhor a conta.
     2. #### SSO do SAML:
