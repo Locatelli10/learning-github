@@ -113,6 +113,34 @@ Git é um software de controle de versão, enquanto o Github é uma plataforma q
         3. #### LDAP:
             LDAP é um protocolo que organiza e gerencia o acesso a informações em diretórios corporativos. No GitHub Enterprise, ele facilita o controle centralizado de repositórios usando contas já existentes da empresa.
 
+# Github Codespaces
+- ### o que é?
+    O GitHub Codespaces é um ambiente de desenvolvimento baseado na nuvem que permite criar, editar e depurar código diretamente no GitHub. Ele oferece um Visual Studio Code integrado e configurado automaticamente, sem a necessidade de instalar ferramentas ou configurar o ambiente localmente. Com ele, é possível desenvolver de qualquer lugar, em qualquer dispositivo, e colaborar com outros desenvolvedores em tempo real. Além disso, permite customizar o ambiente de desenvolvimento, facilitando o acesso a projetos em um ambiente consistente e pronto para uso.
+- ### Dicas
+    - #### Cobrança
+        O Github Codespaces não é gratuito porém existe uma cota de horas mensais gratuita. Você deve acompanhar o uso da sua cota para não gerar cobranças indesejadas.
+        
+        Para acompanhar o consumo da sua cota você deve acessar a página do seu perfil no github e ir em:
+        **Configurações > Billing and Plans > Plans and usage.** Encontrar o titulo "Usage this month" e encontrar o retangulo do "Codespaces" semelhante a imagem abaixo:
+
+        ![Codespaces usage image](Codespaces_usage_image.png)
+    - #### Vantagens
+        Diferente do "github.dev", o "GitHub Codespaces" oferece poder computacional, pois utiliza máquinas virtuais na nuvem, permitindo execução de código, testes e compilação diretamente no ambiente, proporcionando mais recursos e flexibilidade para desenvolvimento.
+
+        Podemos por exemplo visualizar o HTML de um projeto diretamente no navegador com o Codespaces. Para isso basta digitar o comando:
+
+        `python -m https.server`
+
+        Que será criado uma URL do projeto para visualizaçao diretamente no navegador.
+
+        Outra forma de fazer isso é via extensões do VSCode que podem ser instaladas dentro do Codespaces.
+        O "Live Server" é uma extensão que gera um resultado bem semelhante ao comando descrito acima, porém com a vantagem de suportar diversas linguagens e não apenas python.
+        Para isso basta clicar com o botão direito no seu .html e escolher a opção "Open with Live Server" para também gerar uma URL que possibilita a visualizaçao do projeto no navegador.
+
+        De ambas formas você terá acesso a detalhamentos via terminal do VSCode que facilitam bastante o desenvolvimento. Segue imagem dos exemplos descritos acima. O comando em Python criou o endereço na porta 8000 enquanto o Live Server criou na porta 5500.
+
+        ![VSCode Terminal image](VSCode_terminal_image.png)
+
 -----------------------------------
 <details align="left">
   <summary>Credits</summary> 
